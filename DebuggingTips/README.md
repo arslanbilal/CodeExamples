@@ -1,6 +1,6 @@
 ## Xcode Debugging Tips
 
-<p>Xcode debugging is very useful when we know to how to use. In the number of the Xcode debugging features, there is a useful one I have recenly discovered.</p>
+<p>Xcode debugging is very useful when we know how to use. In the number of the Xcode debugging features, there is a useful one I have recently discovered.</p>
 
 As we all know, we can easly print all variable in the debugging sesion variable list.
 <hr>
@@ -18,56 +18,36 @@ Lets look at what we shuld write for this.  You can download basic project [here
 
 Here is the initial screen of the app, we are going to change `text` property of label(`aLabel`) and `backgroundColor` property of button(`aButton`):
 
-<img src="./images/01.png" height="333" width="187">
-
---
+<img src="./images/1.png" height="333" width="187">
 
 This is what we see when we debug the app and print the `aLabel`:
 
-<img src="./images/02.png">
-
---
+<img src="./images/2.png">
 
 Printing `text` property:
 
-<img src="./images/03.png">
-
---
+<img src="./images/3.png">
 
 And changing it:
 
-<img src="./images/04.png">
+<img src="./images/4.png">
 
---
+**And boom!** We have changed the text here:
 
-And boom! We have changed the text here.:
-
-<img src="./images/05.png" height="333" width="187>
-
-
---
---
+<img src="./images/5.png" height="333" width="187">
 
 Lets print the `aButton`:
 
-<img src="./images/06.png">
+<img src="./images/6.png">
 
---
+And print the `backgroundColor` property of `aButton`:
 
-And print the `backgroundColor` propert of `aButton`:
-
-<img src="./images/07.png">
-
---
+<img src="./images/7.png">
 
 And changing it to `redColor`:
 
-<img src="./images/08.png">
+<img src="./images/8.png">
 
---
+**Boom!** We changed the background color of button from blue to red:
 
-Boom! We changed the background color of button from blue to red:
-
-<img src="./images/09.png" height="333" width="187>
-
---
+<img src="./images/9.png" height="333" width="187">
